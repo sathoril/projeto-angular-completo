@@ -1,0 +1,12 @@
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csprojAssemblyReference.cache
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Users\bruno.abreu\Downloads\9FE4E52C-0411-45CA-8A08-9B597493A411-14 - ProjetoFinal\back-end\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
