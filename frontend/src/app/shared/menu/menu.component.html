@@ -6,9 +6,11 @@
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="(isHandset$ | async) === false">
-    <mat-toolbar></mat-toolbar>
+    <mat-toolbar class="espacador-menu-top-bar"></mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Home</a>
+      <a mat-list-item [routerLink]="'/home'">Home</a>
+      <a mat-list-item [routerLink]="'/fornecedores'">Fornecedores</a>
+      <a mat-list-item [routerLink]="'/produtos'">Produtos</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -22,6 +24,8 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>Projeto angular completo</span>
+      <span class="espacador"></span>
+      <mat-icon class="logout-icone" aria-hidden="false" aria-label="Ícone para se deslogar da sessão" (click)="deslogar();">logout</mat-icon>
     </mat-toolbar>
     <app-home></app-home>
   </mat-sidenav-content>

@@ -1,0 +1,86 @@
+@import '/src/styles/custom/variables';
+@import '/src/styles/custom/breakpoint-media-queries';
+
+:host {
+  .login-container {
+
+    mat-card {
+      border-radius: 30px;
+    }
+
+    // Centraliza container vertical/horizontalmente
+    display: flex;
+
+    // Quero que ocupe 100% da tela do usuário
+    height: 100%;
+
+    // Posicionamento vertical
+    align-items: center;
+
+    // Posicionamento horizontal
+    justify-content: center;
+
+    .box {
+      display: flex;
+
+      // Coloca cada item dentro da tag de forma que forme uma coluna (cima para baixo)
+      flex-direction: column;
+
+      // Posicionamento horizontal
+      justify-content: space-evenly;
+
+      padding: 30px;
+
+      min-width: 25%;
+      min-height: 35%;
+
+      @include resolucao-menor-que(md) {
+        min-width: 50%;
+      }
+
+      @include resolucao-menor-que(xs) {
+        box-shadow: none;
+        width: 100%;
+      }
+    }
+
+    img {
+      height: 150px;
+      margin-bottom: 30px;
+      margin: 0 auto;
+    }
+
+    .mat-card-title {
+      background-image: src('/src/assets/angular-logo.png');
+    }
+
+
+    .formulario-login {
+      display: flex;
+      margin-top: 30px;
+      // Coloca cada item dentro da tag de forma que forme uma coluna (cima para baixo)
+      flex-direction: column;
+
+      mat-card-content {
+        display: flex;
+
+        // Coloca cada item dentro da tag de forma que forme uma coluna (cima para baixo)
+        flex-direction: column;
+
+        // Posicionamento vertical
+        align-items: center;
+      }
+
+      mat-form-field {
+        width: 95%;
+        margin-bottom: 35px;
+      }
+
+      button {
+        width: 95%;
+        height: 10%;
+        margin-top: 20px;
+      }
+    }
+  }
+}

@@ -1,3 +1,16 @@
-  mat-toolbar {
+
+
+
+:host {
+  .espacador-menu-top-bar {
     background-color: #424242;
   }
+
+  .espacador {
+    flex: 1 1 auto;
+  }
+
+  .logout-icone {
+    cursor: pointer;
+  }
+}

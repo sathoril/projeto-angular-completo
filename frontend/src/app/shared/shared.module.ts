@@ -8,8 +8,6 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
-
-import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { NaoEncontradoComponent } from './nao-encontrado/nao-encontrado.component';
 import { MenuComponent } from 'src/app/shared/menu/menu.component';
@@ -28,13 +26,11 @@ import { MenuComponent } from 'src/app/shared/menu/menu.component';
     NaoEncontradoComponent,
     MenuComponent,
     HomeComponent,
-    FooterComponent
   ],
   exports: [
     NaoEncontradoComponent,
     MenuComponent,
     HomeComponent,
-    FooterComponent
   ]
 })
 export class SharedModule { }

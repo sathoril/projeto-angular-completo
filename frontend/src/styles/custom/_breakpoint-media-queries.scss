@@ -1,0 +1,33 @@
+@use "sass:map";
+
+// Breakpoints padrão de telas
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);
+
+// Para quando ddeseja modificar o css para telas com resolução maior que a informada
+@mixin resolucao-maior-que($breakpoint) {
+  @if (map.has-key($breakpoints, $breakpoint)) {
+
+    $breakpointSelecionado: map.get($breakpoints, $breakpoint);
+
+    @media(min-width: $breakpointSelecionado) {
+      @content;
+    }
+  }
+}
+
+// Para quando ddeseja modificar o css para telas com resolução menor que a informada
+@mixin resolucao-menor-que($breakpoint) {
+  @if (map.has-key($breakpoints, $breakpoint)) {
+
+    $breakpointSelecionado: map.get($breakpoints, $breakpoint);
+
+    @media(max-width: $breakpointSelecionado) {
+      @content;
+    }
+  }
+}
